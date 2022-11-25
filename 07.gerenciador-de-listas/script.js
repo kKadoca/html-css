@@ -79,6 +79,7 @@ function analisar() {
 
 // funcao que zera a lista
 function limpar() {
+    lista = []
     res.innerHTML = ''
     tab.innerHTML = '<option>Preencha essa lista adicionando números acima!</option>'
     num.focus()

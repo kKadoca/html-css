@@ -13,4 +13,6 @@ function tabuada() {
             tab.appendChild(item)
         }
     }
+    num.value = ''
+    num.focus()
 }
