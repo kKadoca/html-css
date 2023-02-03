@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Financeira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="start()">
+    <h1>Planos Futuros</h1>
+    <section>
+        <hr size="3px" noshade color="black">
+        <div class="medidor">
+            <img src="img/medidor50.png" alt="medidor50">
+            <div id="container"></div>
+        </div>
+        <p>Quanto foi investido hoje?</p>
+        <div class="input">
+            R$
+            <input type="number" class="campo" name="txtn" id="txtn">
+            <input type="button" class="button" value="Adicionar" onclick="adicionar()">
+        </div>
+        <div class="valor">
+            <div id="res">
+                Total: 00 reais
+            </div>
+            <input type="button" class="button b1" value="Mostrar" onclick="mostrar()">
+        </div>
+    </section>
+    <footer>
+        <p>&#64;kKadoca</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
